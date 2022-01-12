@@ -2,12 +2,6 @@
 
 WIP...
 
-## Setup Docker Container
-
-```
-docker build -t ai-applications .
-```
-
 ### Set NVIDIA Container Runtime for Docker
 
 in the file `/etc/docker/daemon.json` add `"default-runtime": "nvidia"`:
@@ -25,3 +19,8 @@ in the file `/etc/docker/daemon.json` add `"default-runtime": "nvidia"`:
 }
 ```
 
+## Setup Docker Container
+
+```
+docker build -t ai-applications .
+```
