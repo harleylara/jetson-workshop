@@ -8,5 +8,6 @@ sudo docker run --runtime nvidia -it --rm --security-opt  seccomp=unconfined --n
     -v /etc/enctune.conf:/etc/enctune.conf \
     --device /dev/video0 \
     --device /dev/video1 \
-    -v $PWD/workspace:/jetson-inference/workspace \
+    -v $PWD/notebooks:/jetson-inference/notebooks \
+    -v $PWD/images:/jetson-inference/images \
     ai-applications
