@@ -25,8 +25,8 @@ You will then want to restart the Docker service or reboot your system before pr
 $ service docker restart
 ```
 
-## Setup Docker Container
+## Build Docker Image
 
 ```
-docker build -t ai-applications .
+$ ./docker/build.sh
 ```
